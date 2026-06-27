@@ -2,7 +2,7 @@
 
 **Asignatura:** DIY7111 — Tecnologías de Virtualización · DuocUC
 **Caso:** Consultora PMOTrack
-**Autor:** NOMBRE
+**Autor:** German munoz
 
 ---
 
@@ -39,7 +39,7 @@ datos **PostgreSQL**, sobre un cluster de **Kubernetes en AWS EKS**, dentro del 
 ```
 
 - **Redmine** se expone al exterior mediante un **Service NodePort** y se accede desde el
-  navegador en `IP:PUERTO`.
+  navegador en `34.239.132.132:30080`.
 - **Redmine se conecta a PostgreSQL** usando el nombre del Service (`postgres`) como host,
   gracias al DNS interno de Kubernetes.
 - **PostgreSQL** sólo se expone internamente mediante un **Service ClusterIP** (puerto 5432).
